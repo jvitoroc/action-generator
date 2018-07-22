@@ -1,6 +1,6 @@
 # action-generator
 
-Generate action creators very quickly. [Click here to install.](vscode:extension/jvitoroc.action-generator)
+Generate action creators very quickly. [Go to the marketplace page.](https://marketplace.visualstudio.com/items?itemName=jvitoroc.action-generator#overview)
 
 ## How it works
 
