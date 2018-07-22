@@ -2,7 +2,7 @@
     "name": "action-generator",
     "displayName": "action-generator",
     "description": "generate actions creators quickly",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "publisher": "jvitoroc",
     "repository": "https://github.com/jvitoroc/action-generator",
     "engines": {
