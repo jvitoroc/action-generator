@@ -1,0 +1,41 @@
+{
+    "name": "action-generator",
+    "displayName": "action-generator",
+    "description": "generate actions creators quickly",
+    "version": "0.1.0",
+    "publisher": "jvitoroc",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.actionGenerator",
+        "onLanguage:javascript",
+        "onLanguage:jsx"
+    ],
+    "main": "./extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.actionGenerator",
+                "title": "Generate Actions"
+            }
+        ]
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.6",
+        "eslint": "^4.11.0",
+        "@types/node": "^7.0.43",
+        "@types/mocha": "^2.2.42"
+    },
+    "dependencies": {
+        "copy-paste": "^1.3.0"
+    }
+}
