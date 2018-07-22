@@ -9,6 +9,7 @@ First, select your actions. If you want to add parameters to your actions, just 
 ![First, select your actions. If you want to add parameters to your actions, just start a comment section right after an action and separate your paramaters with commas, just like the image:](1.PNG)
 
 Second, run the command "Generate Actions Creators" (Ctrl+Shift+P)
+
 ![Second run the command "Generate Actions" (Ctrl+Shift+P)](2.PNG)
 
 Third, a pop up will come up (maybe in the bottom-right corner) telling you if the command ran successfuly:
